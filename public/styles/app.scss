@@ -1,13 +1,16 @@
 ﻿/*variables*/
 
 $grey-background: #323D47 0% 0% no-repeat padding-box;
+$dark-background: #1C2228 0% 0% no-repeat padding-box;
 $brownish-color-background: #C68F56 0% 0% no-repeat padding-box !important;
 $brownish-color: #C68F56 !important;
+$standard-section-height: 320px;
 
 @mixin btn-navbar {
     width: 130px;
     height: 35px;
     margin: 32px !important;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #header-div {
@@ -45,4 +48,23 @@ $brownish-color: #C68F56 !important;
     @include btn-navbar;
     color: $brownish-color;
     border-color: $brownish-color;
+}
+
+.get-app-section {
+    background: transparent url('../img/architecture-building-dubai-70441 bg.png') 0% 0% no-repeat padding-box;
+    height: $standard-section-height;
+}
+
+.about-app-section {
+    background: $dark-background;
+    height: $standard-section-height;
+}
+
+#for-customers-section {
+    background: $grey-background;
+    height: $standard-section-height;
+}
+
+#for-customers-with-picture {
+    background: transparent url('../img/bar-drinks-hotel-6490.png') 0% 0% no-repeat padding-box;
 }

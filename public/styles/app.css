@@ -24,13 +24,30 @@
 .btn-primary {
   width: 130px;
   height: 35px;
-  margin: 16px !important;
+  margin: 32px !important;
+  font-family: 'Montserrat', sans-serif;
   background: #C68F56 0% 0% no-repeat padding-box !important;
   border-color: #C68F56 !important; }
 
 .btn-outline-primary {
   width: 130px;
   height: 35px;
-  margin: 16px !important;
+  margin: 32px !important;
+  font-family: 'Montserrat', sans-serif;
   color: #C68F56 !important;
   border-color: #C68F56 !important; }
+
+.get-app-section {
+  background: transparent url("../img/architecture-building-dubai-70441 bg.png") 0% 0% no-repeat padding-box;
+  height: 320px; }
+
+.about-app-section {
+  background: #1C2228 0% 0% no-repeat padding-box;
+  height: 320px; }
+
+#for-customers-section {
+  background: #323D47 0% 0% no-repeat padding-box;
+  height: 320px; }
+
+#for-customers-with-picture {
+  background: transparent url("../img/bar-drinks-hotel-6490.png") 0% 0% no-repeat padding-box; }
