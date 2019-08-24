@@ -1,0 +1,48 @@
+﻿/*variables*/
+
+$grey-background: #323D47 0% 0% no-repeat padding-box;
+$brownish-color-background: #C68F56 0% 0% no-repeat padding-box !important;
+$brownish-color: #C68F56 !important;
+
+@mixin btn-navbar {
+    width: 130px;
+    height: 35px;
+    margin: 32px !important;
+}
+
+#header-div {
+    background: $grey-background;
+    height: 103px;
+}
+
+#app-icon-img {
+    width: 64px;
+    height: 69px;
+    margin: 0px;
+    padding: 0px;
+    opacity: 1;
+}
+
+.nav-item {
+    width: 168px;
+    height: 38px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font: Regular 20px/27px Playfair Display;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.btn-primary {
+    @include btn-navbar;
+    background: $brownish-color-background;
+    border-color: $brownish-color;
+}
+
+.btn-outline-primary {
+    @include btn-navbar;
+    color: $brownish-color;
+    border-color: $brownish-color;
+}

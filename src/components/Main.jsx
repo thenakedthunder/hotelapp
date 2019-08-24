@@ -5,7 +5,10 @@ import ReactDOM from 'react-dom';
 
 
 const Main = () => {
-    return null;
+    return (
+        <GetTheAppSection />
+
+    )
 }
 
 export default Main;

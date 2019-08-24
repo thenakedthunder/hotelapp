@@ -1,0 +1,36 @@
+/*variables*/
+#header-div {
+  background: #323D47 0% 0% no-repeat padding-box;
+  height: 103px; }
+
+#app-icon-img {
+  width: 64px;
+  height: 69px;
+  margin: 0px;
+  padding: 0px;
+  opacity: 1; }
+
+.nav-item {
+  width: 168px;
+  height: 38px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font: Regular 20px/27px Playfair Display;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  opacity: 1; }
+
+.btn-primary {
+  width: 130px;
+  height: 35px;
+  margin: 16px !important;
+  background: #C68F56 0% 0% no-repeat padding-box !important;
+  border-color: #C68F56 !important; }
+
+.btn-outline-primary {
+  width: 130px;
+  height: 35px;
+  margin: 16px !important;
+  color: #C68F56 !important;
+  border-color: #C68F56 !important; }
